@@ -5,4 +5,4 @@ Veritabanı teknolojisinden(Sql Server, Mysql vs) bağımsız ado.net veri eriş
 
 Fikir vermesi açısından küçük bir sınıf; transation, parametre vs. desteği eklenebilir ihtiyaç durumuna göre.
 
-Dependency Injection uygulayabilmek için bağımlılık nesnesini(IDbConnection) constructer injection yaklaşımını kullandım.
+Dependency Injection uygulayabilmek için bağımlılık nesnesini(IDbConnection) constructor injection yaklaşımını kullandım.
