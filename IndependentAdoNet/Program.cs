@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace IndependentAdoNet
+﻿namespace IndependentAdoNet
 {
     class Program
     {
         static void Main(string[] args)
         {
+            var con = DbConnectionFactory.CreateDbConnection(DbConnectionType.MSSQL);
+            var db = new IndependentAdoNet(con);
+            var result = db.GetData("select * from ..");
         }
     }
 }
